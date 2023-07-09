@@ -1,0 +1,164 @@
+/* --------------- CSS NAVBAR --------------------- */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav {
+    color: #F2EFEB;
+    width: 71.25rem;
+    height: 4.5rem;
+    border-radius: 0 0 0.25rem 0.25rem;
+    background: #0E1140;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    flex-wrap: nowrap;
+  }
+  
+.logo {
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+   
+  }
+
+.img {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-position: center;
+}
+/* --------------- LANDING PAGE --------------------- */
+.landingPage{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* --------------- TITLE BLOCK --------------------- */
+.title h1{
+    color: #0E1140;
+    display: inline-block;
+    width: 44.25rem;
+    height: 14.5rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.5rem;
+    letter-spacing: 0.025rem;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: row;
+}
+.text p{
+    margin-right: 1.25rem;
+}
+.iconsTime{
+    display: flex;
+    padding-top: 2rem;
+
+}
+/* --------------- FORMS --------------------- */
+.forms{
+    padding-top: 1rem;
+    width: 35.375rem;
+    height: 45.625rem;
+}
+.forms p{
+    font-size: 1.8rem;
+}
+button{
+    color:  #0E1140;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 20.625rem;
+    border-radius: 1.25rem;
+    outline: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+
+    background-color: transparent;
+    border: 8px solid  #0E1140;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+  
+}
+button:hover{
+    box-shadow: 0 0 10px 0 #0E1140 inset, 0 0 20px 2px #0E1140;
+    border: 8px solid #0E1140;
+}
+
+.select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 1.5rem;
+}
+  
+.select label {
+    order:1 
+}
+.select select{
+    order: 2;
+    width: 11rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+.label{
+    font-size: 1.5rem;
+}
+/* --------------- TABLES    --------------------- */
+.titleTable{
+    color: #0E1140; 
+    font-family: 'Raleway',sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 72px; margin: 0 0 24px; 
+    text-align: center; 
+    text-transform: uppercase; 
+}
+table {
+    color: #100f0f;
+}
+  
+table tr:nth-child(2n) {
+    background: #eff0f1;
+}
+  
+table tr:nth-child(2n+3) {
+    background: #fff;
+}
+  
+table th, table td {
+    padding: 1em;
+    width: 10em;
+    text-align: center;
+}
+  
+.days, .time {
+    color: #F2EFEB;
+    background: #0E1140;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+td.break-time {
+    text-align: center;
+    background-color: #f0f0f0; 
+    font-weight: bold; 
+}
+  
+  

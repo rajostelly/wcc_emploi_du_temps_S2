@@ -1,0 +1,19 @@
+footer {
+  margin-top: 6rem;  
+  width: 100%;
+  background-color: #0e1140;
+  color: white;
+  text-align: center;
+  height: 7rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.button{
+    margin: 1.4rem 3rem 0;
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+ }
