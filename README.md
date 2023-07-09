@@ -1,7 +1,7 @@
 WCC_2023_S2_DEV
 
 techzara_wcc3
-Link : https://wccemploidutemps.netlify.app/
+Link netlify: https://wccrandomemploidutemps.netlify.app/
 
 made using only
 
